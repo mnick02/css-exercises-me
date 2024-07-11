@@ -9,5 +9,11 @@
 }
 
 #third {
-    font-size: 36px;
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: rgb(100, 240, 100);
+    font-size: 24px;
+    font-weight: bold;
 }
