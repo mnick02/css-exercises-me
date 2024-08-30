@@ -16,6 +16,7 @@ body {
   align-items: center;
   padding: 8px;
   margin: 16px;
+  /*justify-content?*/
 }
 
 .profile-image {
@@ -49,4 +50,8 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  gap: 8px;
 }
