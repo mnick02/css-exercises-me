@@ -2,12 +2,14 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-content: space-around;
-  flex-shrink: 1;
+  justify-content: space-between;
+  /*space between instead of around seems to have
+  desired affect I was looking for*/
+  align-items: center;
+  padding: 8px;
 }
 
 .logo {
-  align-self: center;
   /*changed to align center in logo itself*/
   margin: 20px;
   font-size: 48px;
@@ -20,33 +22,30 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  padding: 2px;
-  margin: auto;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  /*setting to 0px accomplishes the same goal*/
+  gap: 8px;
+  /*nice way to space out columns and rows*/
   /*padding: auto;
   margin: auto;*/
   /*justify-content: space-around;*/
 }
 
-ul,
+/*ul,
 .left-links, 
 .right-links {
-  /*background-color: aqua;*/
-  /*padding: 4px 32px;*/
-  /*justify-content: flex-start;*/
-  /*align-self: flex-start;*/
-  /*margin-left: auto;*/
   display: flex;
-  /*align-items: center;*/
 }
 
 .left-links{
-  /*check what you can add here*/
   margin-right: auto;
 }
 
 .right-links{
   margin-left: auto;
-}
+}*/
 
 a {
   margin: 10px;
