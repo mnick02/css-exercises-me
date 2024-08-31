@@ -16,7 +16,7 @@ body {
   align-items: center;
   padding: 8px;
   margin: 16px;
-  gap: 8px;
+  gap: 16px;
   /*justify-content?*/
 }
 
@@ -70,7 +70,6 @@ ul {
   /*display: flex;
   background-color: aqua;
   justify-content: flex-start;*/
-  background-color: aqua;
   display: flex;
   flex-shrink: 0;
 }
