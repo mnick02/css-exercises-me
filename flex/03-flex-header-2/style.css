@@ -63,13 +63,14 @@ ul {
   gap: 8px;
 }
 
-.profile-image,
-button,
+
 .left{
   /*display: flex;
   margin-left: 190px;*/
   /*display: flex;
   background-color: aqua;
   justify-content: flex-start;*/
+  background-color: aqua;
   display: flex;
+  flex-shrink: 0;
 }
