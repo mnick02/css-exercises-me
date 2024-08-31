@@ -5,6 +5,8 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
@@ -28,12 +30,21 @@ img {
   background: #eee;
 }
 
+/*.text, img{
+  display: flex;
+  justify-content: center;
+  background-color: greenyellow;
+  flex-direction: column;
+  flex-wrap: wrap;
+}*/
+
 .images-text{
   background-color: aqua;
   display: flex;
-  flex-direction: column;
-  /*justify-content: center;*/
+  flex-direction: row;
+  justify-content: center;
   /*gap: 52px;*/
   /*align-items: center;*/
+  flex-wrap: wrap;
 }
 
