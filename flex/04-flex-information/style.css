@@ -5,8 +5,9 @@ body {
 img {
   width: 100px;
   height: 100px;
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  flex-direction: column;*/
+  /*try using different group or group together images*/
 }
 
 .title {
@@ -41,10 +42,22 @@ img {
 .images-text{
   background-color: aqua;
   display: flex;
-  flex-direction: row;
+  /*flex-direction: row-reverse;*/
   justify-content: center;
   /*gap: 52px;*/
   /*align-items: center;*/
+  /*flex-wrap: wrap;*/
+  gap: 20px;
+  padding: 20px;
+}
+
+.images-container{
+  display: flex;
+  flex-direction: column;
+  /*This works because the image and text are in
+  a group together so they just stack on top of each other*/
+  align-items: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 
