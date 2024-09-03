@@ -23,7 +23,7 @@ body {
 
   display: flex;
   padding: 20px;
-  gap: 52px;
+  /*gap: 52px;*/
 }
 
 .icon {
@@ -83,7 +83,7 @@ button.cancel {
   font-size: 19px;
   font-weight: bold;
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   /*gap: 20px;*/
   /*is this the solution to aligning
   button in top right?*/
@@ -98,6 +98,7 @@ button.cancel {
   flex-wrap: wrap;
   font-size: 15px;
   gap: 6px;
+  align-items: center;
   /*flex-direction: column;*/
   /*justify-content: center;
   gap: 52px;
