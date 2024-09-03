@@ -83,13 +83,21 @@ button.cancel {
   font-size: 19px;
   font-weight: bold;
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  /*gap: 20px;*/
+  /*is this the solution to aligning
+  button in top right?*/
 }
 
+.text{
+  margin-bottom: 10px;
+}
 
 .group{
   display: flex;
   flex-wrap: wrap;
+  font-size: 15px;
+  gap: 6px;
   /*flex-direction: column;*/
   /*justify-content: center;
   gap: 52px;
