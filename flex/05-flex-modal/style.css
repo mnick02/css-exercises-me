@@ -42,6 +42,7 @@ body {
   /*justify-content: left;*/
 
   margin: 20px;
+  flex-shrink: 0;
   /*do we want this, gap, or both?*/
 }
 
@@ -82,3 +83,10 @@ button.cancel {
   font-size: 19px;
   font-weight: bold;
 }
+
+/*.group{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  flex-shrink: 0;
+}*/
