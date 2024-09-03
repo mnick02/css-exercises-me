@@ -24,7 +24,6 @@ body {
   display: flex;
   padding: 20px;
   gap: 52px;
-  margin: 0;
 }
 
 .icon {
@@ -41,7 +40,9 @@ body {
   align-items: center;
   justify-content: center;
   /*justify-content: left;*/
+
   margin: 20px;
+  /*do we want this, gap, or both?*/
 }
 
 .close-button {
@@ -75,4 +76,9 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.header{
+  font-size: 19px;
+  font-weight: bold;
 }
