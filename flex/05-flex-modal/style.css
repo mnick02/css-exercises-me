@@ -87,8 +87,8 @@ button.cancel {
   font-weight: bold;
   display: flex;
   margin-bottom: 0px;
-  gap: 5px;
-  justify-content: flex-end;
+  gap: 99px;
+  margin-left: auto;
   /*is this the solution to aligning
   button in top right?*/
 }
@@ -109,3 +109,6 @@ button.cancel {
   flex-shrink: 0;*/
 }
 
+.close-button{
+  margin-left: auto;
+}
