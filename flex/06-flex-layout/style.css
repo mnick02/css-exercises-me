@@ -43,6 +43,7 @@ a{
   align-items: center;
   flex-direction: column;
   gap: 16px;
+  margin-top: auto;
   margin-bottom: auto;
 }
 
@@ -60,5 +61,10 @@ a{
 .right-links{
   display: flex;
   gap: 16px;
+}
+
+.header{
+  display: flex;
+  /*justify-content: space-between;*/
 }
 
