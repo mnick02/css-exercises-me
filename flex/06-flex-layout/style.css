@@ -38,4 +38,5 @@ a{
   background-color: aliceblue;
   align-items: center;
   flex-direction: column;
+  gap: 16px;
 }
