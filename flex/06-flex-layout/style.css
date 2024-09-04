@@ -31,7 +31,7 @@ input {
 
 ul{
   list-style: none;
-  /*padding: 0;*/
+  padding: 5px;
   /*play around with this and li maybe?*/
 }
 
@@ -69,6 +69,6 @@ a{
 
 .header{
   display: flex;
-  /*justify-content: space-between;*/
+  justify-content: space-between;
 }
 
