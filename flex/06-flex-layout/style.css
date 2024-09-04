@@ -32,3 +32,10 @@ ul{
 a{
   text-decoration: none;
 }
+
+.content{
+  display: flex;
+  background-color: aliceblue;
+  align-items: center;
+  flex-direction: column;
+}
