@@ -49,5 +49,16 @@ a{
 .footer{
   background-color: #eeeeee;
   display: flex;
+  /*justify-content: space-between;*/
+}
+
+.left-links{
+  display: flex;
+  gap: 16px;
+}
+
+.right-links{
+  display: flex;
+  gap: 16px;
 }
 
