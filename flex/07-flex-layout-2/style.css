@@ -34,6 +34,7 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+
   display: flex;
   flex-shrink: 0;
 }
@@ -49,4 +50,14 @@ body {
   flex: 1;
   /*align-items: stretch;*/
   /*flex-wrap*/
+}
+
+a {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
 }
