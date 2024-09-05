@@ -58,7 +58,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   /*padding: 48px;*/
-  gap: 16px;
+  gap: 40px;
   padding: 48px;
 }
 
