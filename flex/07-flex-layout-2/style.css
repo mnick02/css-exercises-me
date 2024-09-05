@@ -8,6 +8,9 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+
+  font-weight: 900px;
+  font-size: 32px;
 }
 
 .footer {
