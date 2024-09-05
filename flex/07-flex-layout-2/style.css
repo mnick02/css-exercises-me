@@ -37,6 +37,8 @@ body {
 
   display: flex;
   flex-shrink: 0;
+  padding: 0;
+  justify-content: left;
 }
 
 .card {
