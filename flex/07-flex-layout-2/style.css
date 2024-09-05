@@ -9,8 +9,10 @@ body {
   background: darkmagenta;
   color: white;
 
-  font-weight: 900px;
+  font-weight: 900;
   font-size: 32px;
+  display: flex;
+  align-items: center;
 }
 
 .footer {
